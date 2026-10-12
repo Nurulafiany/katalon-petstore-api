@@ -84,31 +84,6 @@ Libs/internal/GlobalVariable.groovy
 3. Klik tombol **Run** dan pilih browser/device profile (API test tidak memerlukan browser).
 4. Tunggu hingga eksekusi selesai dan lihat hasil pada tab **Log Viewer** / **Report**.
 
-### 2. Melalui Command Line (`katalonc`)
-
-```bash
-katalonc -noSplash \
-  -projectPath="/Users/agungwibowoibrahim/Documents/work/personal/html/katalon-petstore-api" \
-  -runMode=console \
-  -testSuitePath="Test Suites/TS_Petstore_API_Regression" \
-  -executionProfile="default" \
-  -browserType="Chrome" \
-  -reportFolder="Reports" \
-  -reportFileName="report" \
-  -apiKey="<KATALON_API_KEY_ANDA>"
-```
-
-Untuk menjalankan satu test case saja:
-
-```bash
-katalonc -noSplash \
-  -projectPath="/Users/agungwibowoibrahim/Documents/work/personal/html/katalon-petstore-api" \
-  -runMode=console \
-  -testCasePath="Test Cases/Petstore/E2E/TC09_E2E_Pet_Lifecycle" \
-  -executionProfile="default" \
-  -reportFolder="Reports" \
-  -reportFileName="e2e_report"
-```
 
 ## Lokasi Report
 
