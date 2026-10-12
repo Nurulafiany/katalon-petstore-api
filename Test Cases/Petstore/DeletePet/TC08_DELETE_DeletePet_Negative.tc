@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DELETE /pet/{petId} for a missing pet should return 404</description>
+   <name>TC08_DELETE_DeletePet_Negative</name>
+   <tag>negative</tag>
+   <comment></comment>
+   <testCaseGuid>E153FA6A-DFA4-4BE9-B297-938CC032B8AD</testCaseGuid>
+</TestCaseEntity>

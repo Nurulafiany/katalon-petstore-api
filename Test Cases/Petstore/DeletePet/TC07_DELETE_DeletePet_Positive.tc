@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DELETE /pet/{petId} for an existing pet should return 200</description>
+   <name>TC07_DELETE_DeletePet_Positive</name>
+   <tag>positive</tag>
+   <comment></comment>
+   <testCaseGuid>2B3714AC-ED51-4988-B69F-1DDDC4E51245</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>GET /pet/{petId} for a missing pet should return 404</description>
+   <name>TC06_GET_GetPet_Negative</name>
+   <tag>negative</tag>
+   <comment></comment>
+   <testCaseGuid>F7815C29-77E0-47F6-A0EE-D4762C8277E7</testCaseGuid>
+</TestCaseEntity>

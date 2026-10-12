@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>End to end pet lifecycle: create, read, update, read again and delete</description>
+   <name>TC09_E2E_Pet_Lifecycle</name>
+   <tag>e2e</tag>
+   <comment></comment>
+   <testCaseGuid>234E3FBA-49E9-4C19-991F-92A4C1510DC4</testCaseGuid>
+</TestCaseEntity>

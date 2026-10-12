@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>POST /pet with an empty body should return 405</description>
+   <name>TC02_POST_AddPet_Negative</name>
+   <tag>negative</tag>
+   <comment></comment>
+   <testCaseGuid>DBCD77E3-63B1-4DDD-AE8A-E31CE9A7486E</testCaseGuid>
+</TestCaseEntity>

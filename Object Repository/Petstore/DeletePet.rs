@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description>Delete a pet by id</description>
+   <name>DeletePet</name>
+   <tag></tag>
+   <elementGuidId>3CF5662C-07EE-4E1B-B8B0-32E9B3CA7070</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>api_key</name>
+      <type>Main</type>
+      <value>${apiKey}</value>
+   </httpHeaderProperties>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${baseUrl}/pet/${petId}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.baseUrl</defaultValue>
+      <description></description>
+      <id>C342061E-50FA-4349-B6A9-0A01DCA850F0</id>
+      <masked>false</masked>
+      <name>baseUrl</name>
+   </variables>
+   <variables>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>8110F4BB-D1B4-4052-8900-9DEF5DA76424</id>
+      <masked>false</masked>
+      <name>petId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.apiKey</defaultValue>
+      <description></description>
+      <id>0F764BCE-10E9-416A-88D3-ED06DC239390</id>
+      <masked>true</masked>
+      <name>apiKey</name>
+   </variables>
+   <verificationScript></verificationScript>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

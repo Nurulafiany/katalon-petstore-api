@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Base URL of the Petstore API</description>
+      <initValue>'https://petstore.swagger.io/v2'</initValue>
+      <name>baseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>API key used for the DELETE /pet endpoint (isi dengan API key Anda sendiri)</description>
+      <initValue>'YOUR_API_KEY'</initValue>
+      <name>apiKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Category id used when building pet payloads</description>
+      <initValue>'1'</initValue>
+      <name>categoryId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Category name used when building pet payloads</description>
+      <initValue>'dog'</initValue>
+      <name>categoryName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Status of a newly created pet</description>
+      <initValue>'available'</initValue>
+      <name>petStatus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Status assigned after an update</description>
+      <initValue>'sold'</initValue>
+      <name>updatedStatus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Pet id that is guaranteed not to exist</description>
+      <initValue>'999999999'</initValue>
+      <name>invalidPetId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

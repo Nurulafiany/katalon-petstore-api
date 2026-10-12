@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>POST /pet with a valid body should return 200 and the created pet</description>
+   <name>TC01_POST_AddPet_Positive</name>
+   <tag>positive</tag>
+   <comment></comment>
+   <testCaseGuid>10D4237F-51C7-44A6-8FE0-7DD6F5AD40E7</testCaseGuid>
+</TestCaseEntity>

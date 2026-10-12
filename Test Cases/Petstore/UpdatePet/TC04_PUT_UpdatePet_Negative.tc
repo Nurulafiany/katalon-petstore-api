@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>PUT /pet with malformed JSON should return 400</description>
+   <name>TC04_PUT_UpdatePet_Negative</name>
+   <tag>negative</tag>
+   <comment></comment>
+   <testCaseGuid>D7587F41-8E0C-4608-8BF9-0C05D0992F2E</testCaseGuid>
+</TestCaseEntity>
